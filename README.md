@@ -28,7 +28,7 @@ pip install --user .
 
 - To run the code in a batched manner on all images in a directory (e.g, the `test_input` directory).
   ```bash
-  python runQuant.py
+  python test_output/runQuant.py
   ```
 - There are several parameters to control dot resolution. The first is 'min_pixel', which thresholds the image with all pixels less than min_pixel in brightness being made black. The second is 'min_distance' which controls how much merging is done for nearby dots; higher 'min_distance' give more merging.
 
