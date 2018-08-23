@@ -15,7 +15,7 @@ We combine single-cell RNA-seq and in vivo lineage tracing to study the cellular
 
 Input image            |  Quantification by contour detection and merging
 :-------------------------:|:-------------------------:
-![](https://github.com/adamh-broad/image_analysis/blob/master/dclk1_il13.jpg)  |  ![](ttps://github.com/adamh-broad/image_analysis/blob/master/dclk1_il13_quant.jpg)
+![](https://github.com/adamh-broad/image_analysis/blob/master/dclk1_il13.jpg)  |  ![](https://github.com/adamh-broad/image_analysis/blob/master/dclk1_il13_quant.jpg)
 
 ## Related Resources
 
