@@ -5,7 +5,7 @@ This repo contains Python code for image analysis based on  <a href="https://ope
 
 ## Getting Started
 ### Installation (only tested on OS X, but should work on linux)
-- Install OpenCV with Python bindings. There are several blogs with instructions to do so such as <a href="https://www.learnopencv.com/install-opencv3-on-macos/"> this one</a>/
+- Install OpenCV with Python bindings. There are several blogs with instructions to do so such as <a href="https://www.learnopencv.com/install-opencv3-on-macos/"> this one</a>.
 - For example, using Homebrew on Mac OS X:
 ```bash 
 brew install opencv3
