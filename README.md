@@ -1,8 +1,6 @@
-# Python script for mRNA quantification using smFISH images
+# Python script for blob detection-based image analysis
 
-This repo contains Python code for image analysis based on  <a href="https://opencv.org/">OpenCV</a>.
-
-
+This repo contains Python code for image analysis based on  <a href="https://opencv.org/">OpenCV</a>. The program detects local, contiguous regions (blobs) of high signal intensity. Depending on the image modality, these can correspond to cells in immunohistochemistry (IHC) stains, or to individual messenger RNA (mRNA) molecules in single-molecule FISH (smFISH) images. This code was used to quantify images in the study <a href="https://www.biorxiv.org/content/early/2017/11/14/217133">Biton et al., 2017</a>.  
 
 
 ## Getting Started
