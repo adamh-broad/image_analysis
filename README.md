@@ -13,9 +13,9 @@ biocLite("sva")
 ## Abstract
 We combine single-cell RNA-seq and in vivo lineage tracing to study the cellular composition and hierarchy of the murine tracheal epithelium. We identify a new rare cell type, the pulmonary ionocyte; functional variations in club cells based on their proximodistal location; a distinct cell type that resides in high turnover squamous epithelial structures that we named “hillocks”; and disease-relevant subsets of tuft and goblet cells. With a new method, Pulse-Seq, we show that tuft, neuroendocrine, and ionocyte cells are continually and directly replenished by basal progenitor cells. Remarkably, the cystic fibrosis gene, CFTR, is predominantly expressed in both mouse and human pulmonary ionocytes. Genetic perturbation of murine ionocytes causes a loss of Cftr expression and disrupts airway fluid and mucus physiology, which are also altered in cystic fibrosis. By associating cell type-specific expression programs with key disease genes, we establish a new cellular narrative for airways disease. 
 
-Experimental workflow            |  GFP(Foxi1)+ ionocytes
+Input image            |  Quantification by contour detection and merging
 :-------------------------:|:-------------------------:
-![](https://github.com/adamh-broad/single_cell_airway/blob/master/fig1a.jpg)  |  ![](https://github.com/adamh-broad/single_cell_airway/blob/master/fox1_gfp.jpg)
+![](https://github.com/adamh-broad/image_analysis/blob/master/dclk1_il13.jpg)  |  ![](ttps://github.com/adamh-broad/image_analysis/blob/master/dclk1_il13_quant.jpg)
 
 ## Related Resources
 
