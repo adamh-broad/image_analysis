@@ -1,6 +1,5 @@
-# A revised airway epithelial hierarchy includes CFTR-expressing ionocytes
-
 # Python script for mRNA quantification using smFISH images
+
 This repo contains Python code for image analysis based on  <a href="https://opencv.org/">OpenCV</a>.
 
 Instructions to install OpenCV with Python bindings can be found here.
