@@ -6,16 +6,18 @@ This repo contains Python code for image analysis based on  <a href="https://ope
 
 
 ## Getting Started
-### Installation
+### Installation (only tested on OS X, but should work on linux)
 - Install OpenCV with Python bindings.
 - For example, using Homebrew on Mac OS X:
 ```bash 
-brew install opencv
+brew install opencv3
 ```
 - Clone this repo:
 ```bash
 git clone https://github.com/adamh-broad/image_analysis.git
 cd smFISH_blob
+pip install --user .
+
 ```
 
 ### Image analysis
@@ -30,6 +32,7 @@ cd smFISH_blob
   ```bash
   python runQuant.py
   ```
+- There are several parameters to control dot resolution. The first is 'min_pixel', which thresholds the image with all pixels less than min_pixel in brightness being made black. The second is 'min_distance' which controls how much merging is done for nearby dots; higher 'min_distance' give more merging.
 
 
 Input image            |  Quantification by contour detection and merging
