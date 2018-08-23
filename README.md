@@ -14,20 +14,22 @@ brew install opencv
 ```
 - Clone this repo:
 ```bash
-git clone https://github.com/NVIDIA/vid2vid
-cd vid2vid
+git clone https://github.com/adamh-broad/image_analysis.git
+cd smFISH_blob
 ```
 
 ### Image analysis
 
-- To run the analysis code:
+- To run the analysis code for a single image:
   ```bash
-  #!./scripts/test_2048.sh
   python detect_cells/contour.py --input input/Control_60X_1_C002.tif --bright-blobs  --min_pixel 35 --min_distance 2
   ```
-  The test results will be saved to a HTML file here: `./results/label2city_2048/test_latest/index.html`.
+  The output results will be saved a jpg image: `image_quant.jpg` so the blobs detected and their total number can be visually inspected.
 
-- You can find more example scripts in the `test_input` directory.
+- To run the code in a batched manner on all images in a directory (e.g, the `test_input` directory).
+  ```bash
+  python runQuant.py
+  ```
 
 
 Input image            |  Quantification by contour detection and merging
