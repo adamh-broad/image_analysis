@@ -1,0 +1,3 @@
+[console_scripts]
+detect_cells = detect_cells.main:main
+
