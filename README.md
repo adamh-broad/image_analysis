@@ -28,7 +28,7 @@ git clone https://github.com/adamh-broad/image_analysis.git
 
 Input image            |  Quantification by contour detection and merging
 :-------------------------:|:-------------------------:
-![](https://github.com/adamh-broad/image_analysis/blob/master/test_input/dclk1_il13.jpg)  |  ![](https://github.com/adamh-broad/image_analysis/blob/master/dclk1_il13_quant.jpg)
+![](https://github.com/adamh-broad/image_analysis/blob/master/test_input/dclk1_il13.jpg)  |  ![](https://github.com/adamh-broad/image_analysis/blob/master/test_output/dclk1_il13_quant.jpg)
 
 ## Related Resources
 
