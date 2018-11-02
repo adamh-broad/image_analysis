@@ -13,23 +13,16 @@ brew install opencv3
 - Clone this repo:
 ```bash
 git clone https://github.com/adamh-broad/image_analysis.git
-cd smFISH_blob
-pip install --user .
-
 ```
 
 ### Image analysis
 
-- To run the analysis code for a single image:
+- To run the analysis code on an input image:
   ```bash
-  python detect_cells/contour.py --input input/Control_60X_1_C002.tif --bright-blobs  --min_pixel 35 --min_distance 2
+  python runQuant.py --input test_input/Control_60X_1_C002.tif
   ```
-  The output results will be saved a jpg image: `image_quant.jpg` so the blobs detected and their total number can be visually inspected.
+  The output results will be saved a jpg image: `processed_output.jpg` so the blobs detected and their total number can be visually inspected.
 
-- To run the code in a batched manner on all images in a directory (e.g, the `test_input` directory).
-  ```bash
-  python test_output/runQuant.py
-  ```
 - There are several parameters to control dot resolution. The first is 'min_pixel', which thresholds the image with all pixels less than min_pixel in brightness being made black. The second is 'min_distance' which controls how much merging is done for nearby dots; higher 'min_distance' give more merging.
 
 
